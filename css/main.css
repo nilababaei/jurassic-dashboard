@@ -19,6 +19,7 @@ html {
   border-width: 1px;
   border-top: 0;
   border-right: 0;
+  filter: drop-shadow(2px 2px 5px #6feff9);
 }
 
 .btn {
@@ -28,4 +29,112 @@ html {
 .btn:hover {
   color: #fff;
   background-color: #333;
+}
+
+i {
+  filter: drop-shadow(2px 2px 5px #6feff9);
+}
+
+.starry {
+  color: #ffd31d;
+}
+
+.alert-a {
+  color: #f62e52;
+  animation: pulsey 1500ms linear infinite;
+  transform-origin: 680.942px 1346.168px;
+}
+
+@keyframes pulsey {
+
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+
+}
+
+.darken {
+  animation: blubber 500ms linear infinite;
+}
+
+@keyframes blubber {
+
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: .3;
+  }
+
+  100% {
+    opacity: .5;
+  }
+
+}
+
+.lighten {
+  animation: bluub 500ms linear infinite;
+}
+
+@keyframes bluub {
+
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: .6;
+  }
+
+  100% {
+    opacity: .3;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .blah-1 {
+    border-color: #6feff9;
+    border-style: dotted;
+    border-width: 1px;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+
+  .blah-2 {
+    border-bottom: 0;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .blah-3 {
+    border-color: #6feff9;
+    border-style: dotted;
+    border-width: 1px;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+
+  .blah-4 {
+    border-color: #6feff9;
+    border-style: dotted;
+    border-width: 1px;
+    border-top: 0;
+    border-right: 0;
+  }
+
 }
