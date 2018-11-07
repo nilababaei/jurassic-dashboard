@@ -3,3 +3,29 @@ html {
   color: #6feff9;
   font-family: "Ubuntu Mono", monospace;
 }
+
+.dotty {
+  border-color: #6feff9;
+  border-style: dotted;
+  border-width: 1px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.dotts {
+  border-color: #6feff9;
+  border-style: dotted;
+  border-width: 1px;
+  border-top: 0;
+  border-right: 0;
+}
+
+.btn {
+  color: #6feff9;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #333;
+}
